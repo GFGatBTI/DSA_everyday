@@ -1,9 +1,11 @@
-Day 2 Dsa full  solution
+/*Day 2 Dsa full  solution
 
 Ques 2> Missing Number in an array
 
+Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
+
 // { Driver Code Starts
-// Initial template for C++
+// Initial template for C++ */
 
 #include <bits/stdc++.h>
 using namespace std;
