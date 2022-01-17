@@ -1,3 +1,7 @@
+/*  Large Factorial:
+You are given an array A of integers of length N. You need to calculate factorial of each number. The answer can be very large, so print it modulo 109 + 7.*/
+
+
 // { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
