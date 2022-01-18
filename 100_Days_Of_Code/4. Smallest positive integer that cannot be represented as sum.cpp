@@ -1,4 +1,4 @@
-Day 4> Smallest positive integer that cannot be represented as sum
+// Day 4> Smallest positive integer that cannot be represented as sum
 
 
 // { Driver Code Starts
