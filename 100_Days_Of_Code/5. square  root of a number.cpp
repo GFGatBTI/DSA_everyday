@@ -1,3 +1,7 @@
+/*Square root of a number:
+Given an integer x, find the square root of x. If x is not a perfect square, then return floor(√x).*/
+
+
 // { Driver Code Starts
 //Initial Template for C
 
