@@ -12,3 +12,4 @@ Challenges:
 3. Given an array A of integers of length N. You need to calculate factorial of each number.
 4. Smallest positive integer that cannot be represented as sum.
 5. Square root of a number: Given an integer x, find the square root of x. If x is not a perfect square, then return floor(√x).
+6. Count Inversions: Given an array of integers. Find the Inversion Count in the array. 
