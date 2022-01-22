@@ -1,4 +1,7 @@
-﻿// { Driver Code Starts
+/*  Next higher palindromic number using the same set of digits :
+Given a palindromic number N in the form of string. The task is to find the smallest palindromic number greater than N using the same set of digits as in N.*/
+
+// { Driver Code Starts
 //Initial template for C++
 
 #include <bits/stdc++.h>
