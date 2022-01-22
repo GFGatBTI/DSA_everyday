@@ -1,3 +1,6 @@
+/* Search in a row-column sorted Matrix :
+Given a matrix of size n x m, where every row and column is sorted in increasing order, and a number x. Find whether element x is present in the matrix or not. */
+
 // { Driver Code Starts
 #include<bits/stdc++.h> 
 using namespace std;
