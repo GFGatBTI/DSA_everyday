@@ -12,4 +12,6 @@ Challenges:
 3. Given an array A of integers of length N. You need to calculate factorial of each number.
 4. Smallest positive integer that cannot be represented as sum.
 5. Square root of a number: Given an integer x, find the square root of x. If x is not a perfect square, then return floor(√x).
-6. Count Inversions: Given an array of integers. Find the Inversion Count in the array. 
+6. Count Inversions : Given an array of integers. Find the Inversion Count in the array. 
+7. Search in a row-column sorted Matrix : Given a matrix of size n x m, where every row and column is sorted in increasing order, and a number x. Find whether element x is present    in the matrix or not.
+8. Next higher palindromic number using the same set of digits : Given a palindromic number N in the form of string. The task is to find the smallest palindromic number greater      than N using the same set of digits as in N.
