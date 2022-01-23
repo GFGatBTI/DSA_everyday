@@ -1,3 +1,8 @@
+/* Is Sudoku Valid :
+Given an incomplete Sudoku configuration in terms of a 9x9 2-D square matrix(mat[][]). 
+The task is to check if the current configuration is valid or not where a 0 represents an empty block.
+*/
+
 // { Driver Code Starts
 // Initial Template for C++
 
