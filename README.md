@@ -16,3 +16,4 @@ Challenges:
 7. Search in a row-column sorted Matrix : Given a matrix of size n x m, where every row and column is sorted in increasing order, and a number x. Find whether element x is present    in the matrix or not.
 8. Next higher palindromic number using the same set of digits : Given a palindromic number N in the form of string. The task is to find the smallest palindromic number greater      than N using the same set of digits as in N.
 9. Is Sudoku Valid : Given an incomplete Sudoku configuration in terms of a 9x9  2-D square matrix(mat[][]) the task is to check if the current configuration is valid or not where    a 0 represents an empty block.
+10. Gray Code  : Given a number N, generate bit patterns from 0 to 2^N-1 such tha               successive patterns differ by one bit.  A Gray code sequence must begin with 0.
