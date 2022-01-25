@@ -1,3 +1,8 @@
+/* Merge Sort for Linked List :
+Given Pointer/Reference to the head of the linked list, the task is to Sort the given linked list using Merge Sort.
+Note: If the length of the linked list is odd, then the extra node should go in the first list while splitting. */
+
+
 // { Driver Code Starts
 #include <iostream>
 #include <stdio.h>
