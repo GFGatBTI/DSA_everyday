@@ -17,3 +17,7 @@ Challenges:
 8. Next higher palindromic number using the same set of digits : Given a palindromic number N in the form of string. The task is to find the smallest palindromic number greater      than N using the same set of digits as in N.
 9. Is Sudoku Valid : Given an incomplete Sudoku configuration in terms of a 9x9  2-D square matrix(mat[][]) the task is to check if the current configuration is valid or not where    a 0 represents an empty block.
 10. Gray Code  : Given a number N, generate bit patterns from 0 to 2^N-1 such tha               successive patterns differ by one bit.  A Gray code sequence must begin with 0.
+11. Merge Sort for Linked List :
+    Given Pointer/Reference to the head of the linked list, the task is to Sort the         given linked list using Merge Sort.
+    Note: If the length of the linked list is odd, then the extra node should go in the     first list while splitting.
+12. Neeman's Shoes
