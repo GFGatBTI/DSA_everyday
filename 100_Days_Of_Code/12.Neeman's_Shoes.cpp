@@ -1,5 +1,22 @@
- // Question Link: https://practice.geeksforgeeks.org/problems/neemans-shoes/1#
-//Material Link: https://www.geeksforgeeks.org/sum-of-shortest-distance-on-source-to-destination-and-back-having-at-least-a-common-vertex/
+/* 
+Neeman's Shoes :
+
+Due to the second wave of Gorona virus, Geekland imposed another lockdown and Geek has gained some wieght. Now Geek has decided to exercise.
+There are N intersections in the city numbered from 0 to N-1 and M bidirectional roads each road connecting two intersections. 
+All the intersections are connected to each-other through some set of roads, ith road connect intersections A[i][0] and A[i][1] and is of length A[i][2].
+Every morning Geek will start at intersection src and will run/walk upto intersection dest. 
+Geek only has one hour in the morning so he will choose to cover the shortest path from src to dest.
+After planning his exercising schedule, Geek wants to buy the perfect shoes to walk/run in the morning. 
+He goes to Neeman's Shoe factory which is the National Shoe factory of Geekland. 
+Geek sees that there are two types of shoes "Neeman's Wool Joggers" and "Neeman's Cotton Classics", "Neeman's Wool Joggers" are good for running and "Neeman's Cotton Classics" are good for walking.
+Geek is confused which shoes to buy, so he comes up with a strategy. 
+If the distance he has to cover in the morning is less than or equal to X, then he will walk the distance, therefore he will buy "Neeman's Cotton Classics". If the distance is greater than X, he will buy "Neeman's Wool Joggers". 
+Geek is too lazy to calculate the shortest distance between two intersections src and dest. 
+Help him decide which shoes to buy.
+*/
+
+// Question Link: https://practice.geeksforgeeks.org/problems/neemans-shoes/1#
+// Material Link: https://www.geeksforgeeks.org/sum-of-shortest-distance-on-source-to-destination-and-back-having-at-least-a-common-vertex/
 // Solution in C++
 // Copy the code and paste into the code prompt.
 
