@@ -1,42 +1,47 @@
- // Question Link: https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
-//Material Link: https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
-// Solution in C++
-// Copy the code and paste into the code prompt.
+/* Maximum of all subarrays of size k:
+Given an array arr[] of size N and an integer K. Find the maximum for each and every contiguous subarray of size K.
+*/
 
-// class Solution
-// {
-//   public:
-//     //Function to find maximum of each subarray of size k.
-//     vector <int> max_of_subarrays(int *arr, int n, int k)
-//     {
-//         // your code here
-//         vector<int>v;
-//         deque<int>q;
-//        int i=0,j=0;
-//        while(j<n)
-//        {
-//            while(q.size()>0 && arr[j]>q.back()){
-//            q.pop_back();
-//            }
+/*
+Question Link: https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
+Material Link: https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+Solution in C++
+Copy the code and paste into the code prompt.
+
+class Solution
+{
+	public:
+       //Function to find maximum of each subarray of size k.     
+	vector <int> max_of_subarrays(int *arr, int n, int k)
+     {
+         // your code here
+         vector<int>v;
+         deque<int>q;
+	 int i=0,j=0;
+         while(j<n)
+         {
+            while(q.size()>0 && arr[j]>q.back()){
+            q.pop_back();
+	  }
            
-//           q.push_back(arr[j]);
-//           if(j-i+1<k) j++;
-//           else if(j-i+1==k)
-//           {
-//               v.push_back(q.front());
-//               if(q.front()==arr[i])
-//               q.pop_front();
-//               i++;j++;
+           q.push_back(arr[j]);
+           if(j-i+1<k) j++;
+           else if(j-i+1==k)
+           {
+               v.push_back(q.front());
+               if(q.front()==arr[i])
+               q.pop_front();
+               i++;j++;
               
-//           }
+           }
            
            
-//        }
-//        return v;
-//     }
-// };
+        }
+        return v;
+     }
+};
 
-
+*/
 // OR
 
 
